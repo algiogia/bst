@@ -11,10 +11,20 @@ public class DefaultBST implements BST {
 	private DefaultBST leftChild;
 	private DefaultBST rightChild;
 
+	/**
+	 * Creates a new BST node with given value.
+	 * 
+	 * @param value
+	 */
 	public DefaultBST(int value) {
 		this.value = value;
 	}
 
+	/**
+	 * Add a children with given value.
+	 * 
+	 * @param childValue
+	 */
 	public void put(int childValue) {
 
 		if (childValue < this.value) {
