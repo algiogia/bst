@@ -1,5 +1,11 @@
 package com.ivano.bst;
 
+/**
+ * Interface representing a BinarySearchTree
+ * 
+ * @author ivano
+ * 
+ */
 public interface BST {
 
 	public int getValue();
